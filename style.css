@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: azure;
+    
+}
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 8px 30px;
+    margin-right: 200px;
+}
+
+.left{
+    padding: 8px 30px;
+    margin-left: 200px;
+    font-size: larger;
+    font-weight: 24px;
+}
+
+.head2{
+    margin-top: 80px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+   margin-left: 100px;
+}
+
+#awesome{
+    font-size: 48px;
+    font-weight: extra bold;
+    font-weight: 900;
+}
+
+.left2{
+    width: 300px;
+    margin-left: 250px;
+}
+
+.right2{
+    width: 450px;
+    height: 250px;
+    background-color: gray;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.contentleft{
+    padding: 10px;
+    
+}
+
+.signup{
+    background-color: dodgerblue;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#random{
+    padding: 20px;
+    margin: 40px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border:7px solid dodgerblue;
+    /* background-color: blue; */
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mainbox{
+    width: 250px;
+   
+}
+
+#subtext{
+    text-align: center;
+}
+
+.quotebox{
+    margin-top: 200px;
+    background-color: lightgray;
+    height: 300px;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    padding: 40px;
+}
+
+.thor{
+    font-size: 36px;
+    float: right;
+    margin-right: 100px;
+}
+
+.bluebox{
+    background-color: dodgerblue;
+    margin-top: 200px;
+    color: white;
+    padding: 50px;
+}
+
+
+.bluecontent{
+    display: flex;
+    justify-content: space-between;
+}
+#finalsign{
+    margin-top: 0;
+    margin-right: 200px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #1F2937;
+    color: azure;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
